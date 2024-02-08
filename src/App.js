@@ -1,5 +1,6 @@
 import React from "react";
 import Object from "./components/Object";
+import FormValidation from "./components/FormValidation";
 
 
 const App=()=>{
@@ -7,7 +8,9 @@ const App=()=>{
 
     return (
         <div>
-<Object />
+            <FormValidation />
+
+{/* <Object /> */}
         </div>
     )
 }
